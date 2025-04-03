@@ -1,6 +1,7 @@
 import css from './Contact.module.css'
 import { FaUser } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
+
 export default function Contact  ({data: {id, name, number}, onDelete}) {
  return (
     <div className={css.divContact}>
